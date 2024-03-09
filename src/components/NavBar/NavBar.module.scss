@@ -32,3 +32,11 @@ nav {
     color: $color-light;
   }
 }
+
+.linkActive {
+  color: $color-warning;
+}
+
+a[class*="linkActive"] {
+  color: $color-warning;
+}
