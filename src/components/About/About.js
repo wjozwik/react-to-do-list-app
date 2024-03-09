@@ -1,11 +1,12 @@
-const About = () => {
-    return (
-      <div>
-          <h1>About</h1>
-          <p>Lorem Ipsum.</p>
-      </div>
-    );
-  };
+import PageTitle from '../PageTitle/PageTitle'
 
+const About = () => {
+  return (
+    <div>
+      <PageTitle>About</PageTitle>
+      <p>Lorem Ipsum.</p>
+    </div>
+  );
+};
 
 export default About;

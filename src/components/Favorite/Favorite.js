@@ -1,9 +1,11 @@
+import PageTitle from '../PageTitle/PageTitle'
+
 const Favorite = () => {
   return (
     <div>
-        <h1>Favorite</h1>
-        <p>Lorem Ipsum.</p>
-    </div>
+      <PageTitle>Favorite</PageTitle>
+      <p>Lorem Ipsum.</p>
+  </div>
   );
 };
 
